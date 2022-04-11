@@ -1,0 +1,2 @@
+stingsAndReviews.find({ "amenities.0": "Internet" },
+                           { "name": 1, "address": 1 }).pretty()
