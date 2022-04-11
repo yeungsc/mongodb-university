@@ -1,0 +1,1 @@
+db.inspections.find({ "address.city": {"$eq": "NEW YORK"} }).count()
